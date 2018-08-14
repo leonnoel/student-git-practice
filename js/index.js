@@ -1,4 +1,5 @@
 
+
 //score variables
 let botScore = 0
 let playerScore = 0
@@ -21,6 +22,8 @@ function increasePlayerScore(){
 function displayCompleteMessage(msg){
 	document.getElementById("status").innerHTML=msg;
 }
+
+
 
 // i set the math .random method to the variale computerChoice
 let computerChoice = Math.random();

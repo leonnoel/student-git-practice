@@ -1,3 +1,4 @@
+
 // i set the math .random method to the variale computerChoice
 let computerChoice = Math.random();
 
@@ -17,3 +18,8 @@ if(computerChoice <= 0.33)
 {
   computerChoice = "Scissors"
 }
+// function to display win or lost message
+function displayCompleteMessage(msg){
+	document.getElementById("status").innerHTML=msg;
+}
+
